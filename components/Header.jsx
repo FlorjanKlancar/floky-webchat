@@ -1,5 +1,6 @@
 import Avatar from "./Avatar";
 import ChangeUsername from "./ChangeUsername";
+import { LogoutIcon } from "@heroicons/react/solid";
 
 function Header({ user }) {
   return (
