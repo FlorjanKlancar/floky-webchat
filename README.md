@@ -7,7 +7,7 @@
   </p>
 </div>
 
-<h3>Vercel Deploy: https://floky-chat-web-3.vercel.app/</h3>
+<h3>Vercel Deploy: https://floky-webchat.vercel.app/</h3>
 
 ![Webchat](https://user-images.githubusercontent.com/48727773/168427241-268ca380-890e-4616-a917-e788b493a2ae.png)
 
