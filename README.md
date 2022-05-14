@@ -1,27 +1,72 @@
-# Next.js + Tailwind CSS Example
+<div id="top"></div>
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+<h3 align="center">Floky webchat 3.0</h3>
+  <p align="center">
+    This project was meant to learn a little bit of Web3 technologies. I am using Moralis Service. Chat requires you to connect via Metamask. 
+ 
+  </p>
+</div>
 
-## Preview
+<h3>Vercel Deploy: https://floky-chat-web-3.vercel.app/</h3>
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+  </ol>
+</details>
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
 
-## Deploy your own
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+### Built With
 
-## How to use
+* [Next.js](https://nextjs.org/)
+* [React.js](https://reactjs.org/)
+* [Tailwind CSS](https://tailwindcss.com/)
+* [Moralis](https://moralis.io/)
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+If you want to setup this project locally you need to setup your own Moralis Server and fill the credentials in .env.example.
+
+### Installation
+
+1. Setup Moralis Server and copy its credentials in .env (Rename .env.example to .env)
+2. Clone the repo
+   ```sh
+   git clone https://github.com/FlorjanKlancar/floky-chat-web-3
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+In this project you can connect to chat in a decentralised way via Metamask. Every user joins the same chat room in which they can send and read messages. Default username will be your Metamask public address but you can change it to whatever you want. Avatar is being dynamically assigned regarding of the string that you enter.
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
